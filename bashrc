@@ -35,5 +35,9 @@ alias mv="mv -iv"
 alias yt="youtubr-dl --add-metadata -ic" #Download video link, not restricted to YouTube
 alias yta=" youtube-dl --add-metadata -xic" #Only download audio from video link, not restricted to YouTube
 
+#Xclip -- copy and paste from the cli
 
+alias pbcopy="xclip -selection clipboard"
+alias copy="xclip"
+alias paste="xclip -o"
 
