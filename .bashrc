@@ -20,8 +20,8 @@ export PATH
 shopt -s autocd #Do not require the cd prefix to cd into directory
 
 #Colour settings
-alias ls="ls -hN --colour=auto --group-directories-first"
-alias grep="grep --colour=auto"
+alias ls="ls -hN --color=auto --group-directories-first"
+alias grep="grep --color=auto"
 alias ccat="highlight --out-format=ansi" #Colour cat, syntax highlighting
 
 #General settings
@@ -30,6 +30,8 @@ alias mkd=" mkdir -pv"
 alias rmd="rm -rfv"
 alias starwars="telnet towel.blinkenlights.nl" #:^)
 alias mv="mv -iv"
+alias open="xdg-open"
+alias vs="/usr/bin/codium"
 
 #Youtube-dl settings
 alias yt="youtubr-dl --add-metadata -ic" #Download video link, not restricted to YouTube
