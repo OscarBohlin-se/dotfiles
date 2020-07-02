@@ -20,9 +20,7 @@ export PATH
 HISTFILESIZE=400000000
 HISTSIZE=10000
 PROMPT_COMMAND="history -a"
-
 shopt -s histappend
-
 
 shopt -s autocd #Do not require the cd prefix to cd into directory
 
