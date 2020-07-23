@@ -37,7 +37,7 @@ alias starwars="telnet towel.blinkenlights.nl" #:^)
 alias mv="mv -iv"
 alias open="xdg-open"
 alias vs="/usr/bin/codium"
-alias flex="neodetch"
+alias flex="neofetch"
 
 #Youtube-dl settings
 alias yt="youtube-dl --add-metadata -ic" #Download video link, not restricted to YouTube
