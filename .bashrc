@@ -37,10 +37,11 @@ alias starwars="telnet towel.blinkenlights.nl" #:^)
 alias mv="mv -iv"
 alias open="xdg-open"
 alias vs="/usr/bin/codium"
+alias flex="neodetch"
 
 #Youtube-dl settings
-alias yt="youtubr-dl --add-metadata -ic" #Download video link, not restricted to YouTube
-alias yta=" youtube-dl --add-metadata -xic" #Only download audio from video link, not restricted to YouTube
+alias yt="youtube-dl --add-metadata -ic" #Download video link, not restricted to YouTube
+alias yta="youtube-dl --add-metadata -xic" #Only download audio from video link, not restricted to YouTube
 
 #Xclip -- copy and paste from the cli
 
