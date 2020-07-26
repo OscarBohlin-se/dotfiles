@@ -38,13 +38,13 @@ alias mv="mv -iv"
 alias open="xdg-open"
 alias vs="/usr/bin/codium"
 alias flex="neofetch"
+alias rm "rm -v"
 
 #Youtube-dl settings
 alias yt="youtube-dl --add-metadata -ic" #Download video link, not restricted to YouTube
 alias yta="youtube-dl --add-metadata -xic" #Only download audio from video link, not restricted to YouTube
 
 #Xclip -- copy and paste from the cli
-
 alias pbcopy="xclip -selection clipboard"
 alias copy="xclip"
 alias paste="xclip -o"
