@@ -38,7 +38,8 @@ alias mv="mv -iv"
 alias open="xdg-open"
 alias vs="/usr/bin/codium"
 alias flex="neofetch"
-alias rm "rm -v"
+alias rm="rm -v"
+alias sl="ls"
 
 #Youtube-dl settings
 alias yt="youtube-dl --add-metadata -ic" #Download video link, not restricted to YouTube
