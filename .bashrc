@@ -42,7 +42,7 @@ alias rm="rm -v"
 alias sl="ls"
 
 #Youtube-dl settings
-alias yt="youtube-dl --add-metadata -ic" #Download video link, not restricted to YouTube
+alias yt="youtube-dl --add-metadata --restrict-filenames -ic" #Download video link, not restricted to YouTube
 alias yta="youtube-dl --add-metadata -xic" #Only download audio from video link, not restricted to YouTube
 
 #Xclip -- copy and paste from the cli
