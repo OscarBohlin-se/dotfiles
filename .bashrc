@@ -42,9 +42,9 @@ alias rm="rm -v"
 alias sl="ls"
 alias dui="sudo dnf updateinfo"
 alias duis="sudo dnf updateinfo --info --security"
+alias duii="sudo dnf updateinfo --info"
 alias p="pacman"
 alias sp="sudo pacman"
-
 #Youtube-dl settings
 alias yt="youtube-dl --add-metadata -ic --restrict-filenames" #Download video link, not restricted to YouTube
 alias yta="youtube-dl --add-metadata -xic --restrict-filenames" #Only download audio from video link, not restricted to YouTube
