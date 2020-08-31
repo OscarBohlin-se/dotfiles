@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<homebank v="1.3999999999999999" d="050402">
+<properties title="Oscar" curr="1" auto_smode="1" auto_weekday="1"/>
+<cur key="1" flags="0" iso="SEK" name="Swedish Krona" symb="kr" syprf="0" dchar="," gchar="." frac="2" rate="0" mdate="0"/>
+<account key="1" pos="1" type="1" curr="1" name="Oscar Bohlin Privat" initial="17894" minimum="0"/>
+<account key="3" flags="32" pos="2" type="1" curr="1" name="Oscar CSN" initial="12500" minimum="0"/>
+<account key="4" pos="3" type="1" curr="1" name="Oscars Konto" initial="11322.26" minimum="0"/>
+<account key="5" flags="32" pos="4" type="3" curr="1" name="Allkonto" initial="93000" minimum="0"/>
+<account key="6" pos="5" type="3" curr="1" name="Fonder" initial="129643.21000000001" minimum="0"/>
+<pay key="1" name="ICA Ålidhem"/>
+<pay key="2" name="LIDL Ålidhem "/>
+<pay key="3" name="SUDIO"/>
+<pay key="4" name="SWISH"/>
+<pay key="5" name="IKEA"/>
+<pay key="6" name="LIDL Ålidhem "/>
+<pay key="7" name="CSN"/>
+<pay key="8" name="N/A"/>
+<pay key="9" name="Handelsbanken"/>
+<cat key="1" name="Mat"/>
+<cat key="2" name="Accessoarer"/>
+<cat key="3" name="Kursliteratur"/>
+<cat key="4" name="Köksutrustning"/>
+<cat key="5" name="CSN"/>
+<cat key="6" name="Studiemedel"/>
+<ope date="737668" amount="10710" account="3" paymode="4" st="1" flags="2" payee="7" category="5" info="CSN Studiebidrag + Studielån"/>
+<ope date="737668" amount="-10710" account="3" dst_account="1" st="1" flags="8" payee="8" category="6" info="CSN Studeimedel" kxfer="1"/>
+<ope date="737668" amount="-44.619999999999997" account="6" payee="9" info="Minksat foninnehav"/>
+<ope date="737664" amount="-10" account="1" paymode="6" st="1" payee="1" category="1" info="Krydda, torkad oregano"/>
+<ope date="737664" amount="-20" account="1" paymode="6" st="1" payee="2" category="1" info="Pastasås 500g"/>
+<ope date="737665" amount="-64" account="1" paymode="6" st="1" payee="3" category="2" info="Gummi till hörlurar"/>
+<ope date="737666" amount="-500" account="1" paymode="4" st="1" payee="4" category="3" info="Calculus: a complete course"/>
+<ope date="737667" amount="-87" account="1" paymode="6" st="1" payee="5" category="4" info="Matlåda + vattentillbringare"/>
+<ope date="737668" amount="-63.359999999999999" account="1" paymode="6" st="1" payee="6" category="1" info="Mat"/>
+<ope date="737668" amount="10710" account="1" dst_account="3" flags="10" payee="8" category="6" info="CSN Studeimedel" kxfer="1"/>
+</homebank>
