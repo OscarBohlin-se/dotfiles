@@ -27,7 +27,7 @@ shopt -s autocd #Do not require the cd prefix to cd into directory
 #Colour settings
 alias ls="ls -hN --color=auto --group-directories-first"
 alias grep="grep --color=auto"
-alias ccat="highlight --out-format=ansi" #Colour cat, syntax highlighting
+alias ccat="highlight --out-format=ansi --force" #Colour cat, syntax highlighting
 
 #General settings
 alias cp="cp -iv"
