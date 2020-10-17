@@ -8,8 +8,11 @@ export ZSH="/home/oscar/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="amuse"
+ZSH_THEME="gnzh"
+#NICE THEME GNZH
+#ZSH_THEME="agnoster"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -69,11 +72,12 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
+	#git
 	colored-man-pages
-	zsh-autosuggestions
 	zsh-syntax-highlighting
-	zsh-z
+	#zsh-z
+#	powerline
+	safe-paste
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -93,7 +97,7 @@ source $ZSH/oh-my-zsh.sh
 # fi
 
 # Compilation flags
-# export ARCHFLAGS="-arch x86_64"
+export ARCHFLAGS="-arch x86_64"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -109,6 +113,10 @@ source $ZSH/oh-my-zsh.sh
 # User specific aliases and functions
 alias ls="ls -hN --color=auto --group-directories-first"
 alias grep="grep --color=auto"
+
+alias tr="/home/oscar/.src/set_gnome_terminal_transparency.sh 95"
+alias sl="ls"
+alias a="/usr/bin/atom"
 alias ccat="highlight --out-format=ansi" #Colour cat, syntax highlighting
 alias cp="cp -iv"
 alias mkd=" mkdir -pv"
@@ -119,7 +127,6 @@ alias open="xdg-open"
 alias vs="/usr/bin/codium"
 alias flex="neofetch"
 alias rm="rm -v"
-alias sl="ls"
 alias dui="sudo dnf updateinfo"
 alias duis="sudo dnf updateinfo --info --security"
 alias p="pacman"
@@ -129,4 +136,4 @@ alias yta="youtube-dl --add-metadata -xic --restrict-filenames" #Only download a
 alias pbcopy="xclip -selection clipboard"
 alias copy="xclip"
 alias paste="xclip -o"
-
+#alias gcc="gcc --std=c99 -Wall"
