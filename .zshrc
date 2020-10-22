@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/oscar/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -114,6 +114,7 @@ export ARCHFLAGS="-arch x86_64"
 alias ls="ls -hN --color=auto --group-directories-first"
 alias grep="grep --color=auto"
 
+#General settings
 alias tr="/home/oscar/.src/set_gnome_terminal_transparency.sh 95"
 alias sl="ls"
 alias a="/usr/bin/atom"
@@ -124,15 +125,21 @@ alias rmd="rm -rfv"
 alias starwars="telnet towel.blinkenlights.nl" #:^)
 alias mv="mv -iv"
 alias open="xdg-open"
-alias vs="/usr/bin/codium"
+alias vs="/usr/bin/code"
 alias flex="neofetch"
 alias rm="rm -v"
 alias dui="sudo dnf updateinfo"
+alias duii="sudo dnf updateinfo --info"
+alias dnr="sudo dnf needs-restarting"
 alias duis="sudo dnf updateinfo --info --security"
 alias p="pacman"
 alias sp="sudo pacman"
+
+#Youtube-dl settings
 alias yt="youtube-dl --add-metadata -ic --restrict-filenames" #Download video link, not restricted to YouTube
 alias yta="youtube-dl --add-metadata -xic --restrict-filenames" #Only download audio from video link, not restricted to YouTube
+
+#Pastebin (xclip) settings
 alias pbcopy="xclip -selection clipboard"
 alias copy="xclip"
 alias paste="xclip -o"
